@@ -13,7 +13,7 @@ body {
     color: #7d97ad;
 }
 
-#logo {
+.logo {
     width: 40px;
     padding-top: 20px;
     padding-left: 6px;
@@ -48,15 +48,15 @@ header {
     display: flex;
     flex-wrap: wrap;
 }
-header #header-left {
+.header-left {
     min-width: 20%;
     text-align: left;
 }
-header #header-right {
+.header-right {
     min-width: 80%;
     text-align: right;
 }
-header .header-inner {
+.header-inner {
     padding-right: 6px;
 }
 
@@ -73,24 +73,24 @@ main {
     padding-bottom: 10px;
 }
 
-main .main-inner {
-    margin: 12px 6px 0px 6px;
+.main-inner {
+    margin: 12px 6px 0;
 }
 
-main .items {
+.items {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-main .item {
+.item {
     width: 100%;
     text-align: center;
     margin: 0;
     box-sizing: border-box;
 }
 
-main .item-inner {
+.item-inner {
     padding: 6px;
 }
 
